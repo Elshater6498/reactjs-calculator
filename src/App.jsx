@@ -3,8 +3,11 @@ function App() {
     <div className="w-full h-screen flex items-center justify-center bg-gradient-to-r from-[rgb(36,36,223)] to-[rgb(7,7,166)]">
       <div className="p-5 rounded-lg bg-white">
         <form action="" className="">
-          <div className="">
-            <input type="text" className="w-full mb-3" />
+          <div className="display">
+            <input
+              type="text"
+              className="w-full text-right text-[40px] bg-[rgb(70,70,70)]"
+            />
           </div>
           <div>
             <input type="button" value="AC" />
